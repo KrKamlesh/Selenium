@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="crossbrowser">
+<test name ="test">
+<parameter name ="Browser" value='chrome'/>
+<classes>
+<class name='Seleniumpractise.Selenium.CrossBrowserTesting'/>
+</classes>
+</test>
+
+<test name ="test1">
+<parameter name ="Browser" value='firefox'/>
+<classes>
+<class name='Seleniumpractise.Selenium.CrossBrowserTesting'/>
+</classes>
+</test>
+
+</suite>

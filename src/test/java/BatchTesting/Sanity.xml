@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name ="sanity test">
+    <test name="sanity test">
+      <classes>
+         <class name="BatchTesting.LoginTest"/>
+         <class name="BatchTesting.SignUpTest"/>
+      </classes>
+    </test>     
+</suite>

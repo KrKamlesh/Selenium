@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [crossbrowser]">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="Browser" value="firefox"/>
+  <test name="test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Seleniumpractise.Selenium.CrossBrowserTesting">
+        <methods>
+          <include name="verifypagetitle"/>
+        </methods>
+      </class> <!-- Seleniumpractise.Selenium.CrossBrowserTesting -->
+    </classes>
+  </test> <!-- test(failed) -->
+  <test name="test1(failed)">
+    <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="Seleniumpractise.Selenium.CrossBrowserTesting">
+        <methods>
+          <include name="verifypagetitle" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Seleniumpractise.Selenium.CrossBrowserTesting -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [crossbrowser] -->

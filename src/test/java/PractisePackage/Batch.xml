@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="batch executioon" parallel='tests'>
+	
+	<test name="test1">
+        <parametter name="browser" value="chrome" />
+		<classes>
+			<class name="PractisePackage.Practise1" />
+		</classes>
+	</test>
+	
+	
+	<test name="test2">
+<parametter name="browser" value="firefox" />
+		<classes>
+			<class name="PractisePackage.Practise1" />
+		</classes>
+	</test>
+</suite>

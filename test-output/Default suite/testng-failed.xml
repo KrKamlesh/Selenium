@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Seleniumpractise.Selenium.CrossBrowserTesting">
+        <methods>
+          <include name="verifypagetitle"/>
+        </methods>
+      </class> <!-- Seleniumpractise.Selenium.CrossBrowserTesting -->
+      <class name="Seleniumpractise.Selenium.Paralleltesting">
+        <methods>
+          <include name="parallelBrowser"/>
+        </methods>
+      </class> <!-- Seleniumpractise.Selenium.Paralleltesting -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

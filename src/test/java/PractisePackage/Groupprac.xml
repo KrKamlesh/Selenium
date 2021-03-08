@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="group execution">
+	<groups>
+		<run>
+			<include name="smoke" />
+			<exclude name="sanity"/>
+		</run>
+	</groups>
+	<test name="test1">
+		<classes>
+			<class name="PractisePackage.Practise1" />
+
+
+		</classes>
+
+
+	</test>
+
+
+</suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name='parallel test' parallel="tests" thread-count='2'>
+	<test name='test'>
+		<parameter name='Browser' value='chrome' />
+		<classes>
+			<class name='Seleniumpractise.Selenium.Paralleltesting' />
+		</classes>
+	</test>
+	<test name='test1'>
+		<parameter name='Browser' value='firefox' />
+		<classes>
+			<class name='Seleniumpractise.Selenium.Paralleltesting' />
+		</classes>
+	</test>
+</suite>

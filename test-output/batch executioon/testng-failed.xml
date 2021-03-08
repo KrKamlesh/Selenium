@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [batch executioon]" parallel="tests">
+  <test name="test1(failed)" parallel="tests">
+    <classes>
+      <class name="PractisePackage.Practise1">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- PractisePackage.Practise1 -->
+    </classes>
+  </test> <!-- test1(failed) -->
+  <test name="test2(failed)" parallel="tests">
+    <classes>
+      <class name="PractisePackage.Practise1">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- PractisePackage.Practise1 -->
+    </classes>
+  </test> <!-- test2(failed) -->
+</suite> <!-- Failed suite [batch executioon] -->

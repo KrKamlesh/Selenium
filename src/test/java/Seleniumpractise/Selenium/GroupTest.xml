@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="group test">
+	<groups>
+		<run>
+			<include name="smoke" />
+			<exclude name="sanity" />
+		</run>
+	</groups>
+	<test name="Group test">
+		<classes>
+			<class name="Seleniumpractise.Selenium.GroupTest" />
+		</classes>
+	</test>
+</suite>
