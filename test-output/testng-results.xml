@@ -2,20 +2,38 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="63" started-at="2021-03-11T04:17:36Z" finished-at="2021-03-11T04:17:36Z">
+  <suite name="crossbrowser" duration-ms="71867" started-at="2021-03-11T05:45:43Z" finished-at="2021-03-11T05:46:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="63" started-at="2021-03-11T04:17:36Z" finished-at="2021-03-11T04:17:36Z">
-      <class name="Seleniumpractise.Selenium.HowtoDisableTestcase">
-        <test-method status="PASS" signature="Secondtest()[pri:0, instance:Seleniumpractise.Selenium.HowtoDisableTestcase@66d33a]" name="Secondtest" duration-ms="29" started-at="2021-03-11T09:47:36Z" finished-at="2021-03-11T09:47:36Z">
+    <test name="test" duration-ms="29866" started-at="2021-03-11T05:45:43Z" finished-at="2021-03-11T05:46:13Z">
+      <class name="Seleniumpractise.Selenium.CrossBrowserTesting">
+        <test-method status="PASS" signature="verifypagetitle(java.lang.String)[pri:0, instance:Seleniumpractise.Selenium.CrossBrowserTesting@7dc36524]" name="verifypagetitle" duration-ms="29835" started-at="2021-03-11T11:15:43Z" finished-at="2021-03-11T11:16:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Secondtest -->
-        <test-method status="PASS" signature="Thirdtest()[pri:0, instance:Seleniumpractise.Selenium.HowtoDisableTestcase@66d33a]" name="Thirdtest" duration-ms="1" started-at="2021-03-11T09:47:36Z" finished-at="2021-03-11T09:47:36Z">
+        </test-method> <!-- verifypagetitle -->
+      </class> <!-- Seleniumpractise.Selenium.CrossBrowserTesting -->
+    </test> <!-- test -->
+    <test name="test1" duration-ms="41979" started-at="2021-03-11T05:46:13Z" finished-at="2021-03-11T05:46:55Z">
+      <class name="Seleniumpractise.Selenium.CrossBrowserTesting">
+        <test-method status="PASS" signature="verifypagetitle(java.lang.String)[pri:0, instance:Seleniumpractise.Selenium.CrossBrowserTesting@3d24753a]" name="verifypagetitle" duration-ms="41977" started-at="2021-03-11T11:16:13Z" finished-at="2021-03-11T11:16:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Thirdtest -->
-      </class> <!-- Seleniumpractise.Selenium.HowtoDisableTestcase -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- verifypagetitle -->
+      </class> <!-- Seleniumpractise.Selenium.CrossBrowserTesting -->
+    </test> <!-- test1 -->
+  </suite> <!-- crossbrowser -->
 </testng-results>
