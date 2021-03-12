@@ -1,5 +1,4 @@
 package ReadWriteExcel;
-
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -16,7 +15,7 @@ public class WriteExcel {
 		XSSFWorkbook workboook = new XSSFWorkbook();
 		XSSFSheet sheet = workboook.createSheet("employee info");
 
-		Object empdata[][] = { { "Emp id", "Name", "Job" }, { "101", "Kamlesh", "QA" }, { "102", "Ananad", "MGR" },
+		Object empdata[][] = { { "Emp id", "Name", "Job" }, { "102", "Kamlesh", "QA" }, { "102", "Ananad", "MGR" },
 				{ "103", "Sanjay", "DEV" } };
 
 		// Using for loop
