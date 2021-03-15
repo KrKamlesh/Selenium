@@ -24,7 +24,7 @@ public class DataProvider {
 		
 	}
 	
-	//@Dataprovider
+	
 	public String[][] getdata()
 	{
 		String logindata[][]={{"Kamleshkmr2@gmail.com","7090913878@k","Valid"},
