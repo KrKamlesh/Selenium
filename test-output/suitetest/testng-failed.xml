@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [suitetest]" parallel="classes">
+  <test name="test(failed)" parallel="classes">
+    <classes>
+      <class name="Seleniumpractise.Selenium.MultipletestnParallel">
+        <methods>
+          <include name="launch3"/>
+        </methods>
+      </class> <!-- Seleniumpractise.Selenium.MultipletestnParallel -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [suitetest] -->
