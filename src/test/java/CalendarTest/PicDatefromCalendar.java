@@ -37,6 +37,7 @@ public class PicDatefromCalendar {
 	for(int i=0;i<no;i++ )
 	{
 		String daten=date.get(i).getText();
+		
 		if(daten.equals("20"))
 		{
 			date.get(i).click();

@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [batch executioon]" parallel="tests">
-  <test name="test1(failed)" parallel="tests">
+<suite thread-count="3" name="Failed suite [suitetest]" parallel="classes">
+  <test name="test(failed)" parallel="classes">
     <classes>
-      <class name="PractisePackage.Practise1">
+      <class name="Seleniumpractise.Selenium.MultipletestnParallel">
         <methods>
-          <include name="test1"/>
+          <include name="launch3"/>
         </methods>
-      </class> <!-- PractisePackage.Practise1 -->
+      </class> <!-- Seleniumpractise.Selenium.MultipletestnParallel -->
     </classes>
-  </test> <!-- test1(failed) -->
-  <test name="test2(failed)" parallel="tests">
-    <classes>
-      <class name="PractisePackage.Practise1">
-        <methods>
-          <include name="test1"/>
-        </methods>
-      </class> <!-- PractisePackage.Practise1 -->
-    </classes>
-  </test> <!-- test2(failed) -->
-</suite> <!-- Failed suite [batch executioon] -->
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [suitetest] -->
