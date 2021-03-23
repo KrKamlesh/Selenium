@@ -3,16 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Seleniumpractise.Selenium.CrossBrowserTesting">
+      <class name="Log4jConcept.Practise1">
         <methods>
-          <include name="verifypagetitle"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="verifyPageTitle"/>
         </methods>
-      </class> <!-- Seleniumpractise.Selenium.CrossBrowserTesting -->
-      <class name="Seleniumpractise.Selenium.Paralleltesting">
-        <methods>
-          <include name="parallelBrowser"/>
-        </methods>
-      </class> <!-- Seleniumpractise.Selenium.Paralleltesting -->
+      </class> <!-- Log4jConcept.Practise1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

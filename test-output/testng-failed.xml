@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="3" name="Failed suite [suitetest]" parallel="classes">
-  <test name="test(failed)" parallel="classes">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="Seleniumpractise.Selenium.MultipletestnParallel">
+      <class name="Log4jConcept.Practise1">
         <methods>
-          <include name="launch3"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="verifyPageTitle"/>
         </methods>
-      </class> <!-- Seleniumpractise.Selenium.MultipletestnParallel -->
+      </class> <!-- Log4jConcept.Practise1 -->
     </classes>
-  </test> <!-- test(failed) -->
-</suite> <!-- Failed suite [suitetest] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
